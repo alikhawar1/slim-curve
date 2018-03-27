@@ -9,7 +9,7 @@ pipeline {
    stages {
       stage('smarthome-build') { 
    steps {
-           sh 'mvn-nar nar-test'
+           sh 'mvn-nar install'
         }
       }
    }
